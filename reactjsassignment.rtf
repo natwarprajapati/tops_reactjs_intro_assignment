@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\ul\b\f0\fs32\lang9 module: 9 ; react js intro (assignment):\par
+\ulnone 1.What is React Js?\par
+ans:\b0 React.js is a JavaScript library for building user interfaces. Developed and maintained by Facebook, it enables the creation of dynamic and reusable UI components, facilitating the efficient updating of the interface in response to data changes. React's key features include a component-based architecture, virtual DOM for performance optimization, JSX for concise UI definition, and unidirectional data flow. It is widely used for building modern, interactive web applications.\par
+
+\pard\sa200\sl480\slmult1\b 2.What is NPM in React Js?\par
+ans:\b0\tab NPM, or Node Package Manager, is a vital tool in React.js development. It serves as a package manager for JavaScript, facilitating the installation, updating, and management of project dependencies. In React, NPM is commonly used to install the React library, along with other necessary packages, streamlining the development process and ensuring project consitancy.\par
+\b 3.\tab What is Role of Node Js in react Js?\par
+ans:\b0 Node.js serves as a runtime environment for React.js applications, allowing server-side rendering, facilitating build processes, and providing a unified JavaScript runtime. It enables efficient development workflows, supports tools like NPM for package management, and is often used for creating backend APIs that complement React front-end applications. In summary, Node.js plays a crucial role in enhancing the development and deployment processes of React.js applications.\par
+\b 4.What is CLI command In React Js?\par
+ans:\b0 In React.js, the CLI (Command Line Interface) command commonly used is `create-react-app`. This command is part of the Create React App tool, which is a set of scripts and configurations to quickly set up a new React project with a sensible default configuration. The `create-react-app` command is used to initialize a new React application by creating the necessary project structure, configuration files, and dependencies.\par
+\par
+Here's an example of using the `create-react-app` command to create a new React project:\par
+\par
+```bash\par
+npx create-react-app my-react-app\par
+```\par
+\par
+This command creates a new React application named "my-react-app" in the current directory. The `npx` tool is used to run the command without the need to globally install `create-react-app`.\par
+\par
+After running this command, you can navigate into the newly created project directory (`my-react-app` in this example) and start building your React application.\par
+\par
+The Create React App tool abstracts away the configuration complexities, allowing developers to focus on writing React components and building features without worrying about webpack, Babel, or other build configurations.\par
+
+\pard\sa200\sl360\slmult1\b 5.What is Components in React Js?\par
+ans:\b0 In React.js, components are modular, reusable units of code that encapsulate a specific part of a user interface and its behavior. They can be either functional or class-based and serve as building blocks for creating the structure and functionality of React applications. Components enhance code organization, maintainability, and reusability in web development.\par
+\b 6.What is Header and Content Components in React Js?\par
+ans:\b0 In React.js, a Header component typically represents the top section of a user interface, containing elements like navigation menus, logos, or page titles. It provides a consistent layout across pages.\par
+\par
+A Content component, on the other hand, represents the main section of a user interface where the primary content is displayed. It includes various elements such as text, images, forms, or other components specific to the page's content.\par
+\par
+Both Header and Content components contribute to a modular and organized structure in React applications, allowing developers to manage and reuse these sections efficiently.\par
+\b 7.How to install React Js on Windows, Linux Operating System? How to Install\par
+NPM and How to check version of NPM?\par
+ans:\b0 **Installing React.js:**\par
+\par
+1. **Windows:**\par
+   - Install Node.js: Download and install Node.js from the official website ({{\field{\*\fldinst{HYPERLINK https://nodejs.org/ }}{\fldrslt{https://nodejs.org/\ul0\cf0}}}}\f0\fs32 ).\par
+   - Open a command prompt and run:\par
+     ```\par
+     npx create-react-app my-react-app\par
+     cd my-react-app\par
+     npm start\par
+     ```\par
+   - This creates a new React app and starts the development server.\par
+\par
+2. **Linux:**\par
+   - Install Node.js: Use your package manager (e.g., `apt`, `yum`, `pacman`) to install Node.js.\par
+     ```\par
+     sudo apt install nodejs\par
+     ```\par
+   - Open a terminal and run the same commands as in Windows.\par
+\par
+**Installing NPM:**\par
+- NPM comes bundled with Node.js, so if you've installed Node.js, you already have NPM.\par
+\par
+**Checking NPM Version:**\par
+- Open a terminal or command prompt and run:\par
+  ```\par
+  npm -v\par
+  ```\par
+- This command will display the installed version of NPM.\par
+\par
+Ensure to replace "my-react-app" with your preferred project name in the create-react-app command.\par
+\b 8.How to check version of React Js?\par
+ans:\b0 To check the version of React.js in your project, you can follow these steps:\par
+\par
+1. Open a terminal or command prompt.\par
+\par
+2. Navigate to your React.js project's root directory using the `cd` command:\par
+   ```bash\par
+   cd path/to/your/react/project\par
+   ```\par
+\par
+3. Once you are in the project directory, you can use the following command to display the installed version of React in your project:\par
+   ```bash\par
+   npm list react\par
+   ```\par
+   or for a more concise output:\par
+   ```bash\par
+   npm show react version\par
+   ```\par
+\par
+   This will show the version of React installed in your project.\par
+\par
+Additionally, if you are looking for the React version in a specific JavaScript file within your project, you can add the following code at the top of the file:\par
+```javascript\par
+console.log(React.version);\par
+```\par
+\par
+This will log the React version to the console when the file is executed.\par
+\par
+Remember to replace "path/to/your/react/project" with the actual path to your React.js project.\par
+
+\pard\sa200\sl480\slmult1\b 9.How to change in components of React Js?\par
+ans:\b0 To make changes in React.js components, you need to follow these general steps:\par
+\par
+1. **Locate the Component:**\par
+   - Identify the React component that you want to modify. Components are typically defined in separate files.\par
+\par
+2. **Edit the Component:**\par
+   - Open the file containing the component in your preferred code editor.\par
+\par
+3. **Make Changes:**\par
+   - Modify the JSX code within the component according to your requirements. Update the content, styles, or any other aspects of the component.\par
+\par
+4. **Save the {{\field{\*\fldinst{HYPERLINK File:** }}{\fldrslt{File:**\ul0\cf0}}}}\f0\fs32\par
+   - Save the changes you made to the component file.\par
+\par
+5. **Check the Changes:**\par
+   - If your React application is running, the changes should automatically reflect in the browser. If not, start or restart the development server.\par
+\par
+6. **View Changes in the Browser:**\par
+   - Open your web browser and navigate to the development server URL (usually {{\field{\*\fldinst{HYPERLINK http://localhost:3000 }}{\fldrslt{http://localhost:3000\ul0\cf0}}}}\f0\fs32 ). The changes should be visible in the browser.\par
+\par
+7. **Repeat if Necessary:**\par
+   - If you have multiple components or need to make further changes, repeat the process for each relevant component.\par
+\par
+Here's a simple example of modifying a functional component:\par
+\par
+```jsx\par
+// Before Modification\par
+function MyComponent() \{\par
+  return <div>Hello, World!</div>;\par
+\}\par
+\par
+// After Modification\par
+function MyComponent() \{\par
+  return <div>Hello, React!</div>;\par
+\}\par
+```\par
+\par
+Remember that React components are often organized into a modular structure, so changes in one component may affect others. Ensure consistency and maintain the overall integrity of your application.\par
+\par
+\par
+\par
+\b\par
+
+\pard\sa200\sl276\slmult1\par
+\b0\fs22\par
+}
+ 
